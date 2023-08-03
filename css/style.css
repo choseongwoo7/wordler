@@ -1,0 +1,32 @@
+@import "main.css";
+@import "footer.css";
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding: 0 0 10px 0;
+}
+
+.menu-bar__menu {
+  width: 50px;
+}
+
+.menu-bar__title {
+  font-size: 50px;
+  font-weight: bolder;
+  margin-left: 150px;
+}
+
+.menu-bar__element {
+  width: 200px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.menu-bar__element img {
+  width: 40px;
+}
